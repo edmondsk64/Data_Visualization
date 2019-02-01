@@ -26,10 +26,10 @@ var svg = d3.select("body").append("svg")
 
 var classes_test = getData();
 
-d3.json("https://github.com/edmondsk64/tsv/blob/master/edmond_temp_new.json", function(error, classes) {
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/edmond_temp_small_new.json", function(error, classes) {
   if (error) throw error;
 
-  var nodes = cluster.nodes(packageHierarchy(classes_test)),
+  var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);
 
   svg.selectAll(".link")
