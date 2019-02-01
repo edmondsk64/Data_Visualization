@@ -9,7 +9,7 @@
   .link {
     stroke: steelblue;
     stroke-opacity: .4;
-    stroke-width: .04;
+    stroke-width: .4;
     fill: none;
     pointer-events: none;
     mix-blend-mode: darken;

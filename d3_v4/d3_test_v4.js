@@ -1,5 +1,5 @@
 
-var diameter = 2500,
+var diameter = 1000,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -20,7 +20,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/testing_data.json", function(error, classes) {
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/edmond_temp_small_new.json", function(error, classes) {
     if (error) throw error;
 
     var root = d3.hierarchy(packageHierarchy(classes), (d) => d.children);
@@ -85,7 +85,7 @@ function packageHierarchy(classes) {
     var map = {};
 
     function find(name, data) {
-        name = name.toString();
+        name = "" + name;
         var node = map[name], i;
         if (!node) {
             node = map[name] = data || {name: name, children: []};
