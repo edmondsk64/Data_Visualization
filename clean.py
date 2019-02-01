@@ -1,9 +1,11 @@
 import re
 
-f = open("testing_dataset.txt", "r")
+f = open("small_dataset.csv", "r")
 
-with open("testing_dataset.csv", "w") as output_file:
+with open("edmond_temp.csv", "w") as output_file:
     for line in f:
-        line = re.sub('\[$', ']', line)
         output_file.write(line)
-        print(line)
+
+    for i in range(103, 999):
+        line = '%s,""\n' %(i)
+        output_file.write(line)
