@@ -1,18 +1,11 @@
-.chart div {
-    font: 10px sans-serif;
-    background-color: steelblue;
-    text-align: right;
-    padding: 3px;
-    margin: 1px;
-    color: white;
-  }
-  
-  .chart rect {
-    fill: steelblue;
-  }
-  
-  .chart text {
-    fill: white;
-    font: 10px sans-serif;
-    text-anchor: end;
-  }
+.node {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.link {
+  stroke: steelblue;
+  stroke-opacity: .4;
+  stroke-width: 4;
+  mix-blend-mode: darken;
+  fill: none;
+}

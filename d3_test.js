@@ -1,51 +1,56 @@
+var diameter = 960,
+    radius = diameter / 2,
+    innerRadius = radius - 120;
 
-var svg = d3.select("svg"),
-margin = {top: 20, right: 20, bottom: 30, left: 40},
-width = +svg.attr("width") - margin.left - margin.right,
-height = +svg.attr("height") - margin.top - margin.bottom;
+var cluster = d3.cluster()
+    .size([360, innerRadius]);
 
-var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
-y = d3.scaleLinear().rangeRound([height, 0]);
+const line = d3.line()
+    .x(d => d.x)
+    .y(d => d.y)
+    .curve(d3.curveBundle.beta(0.95));
 
-var g = svg.append("g")
-.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .append("g")
+    .attr("transform", "translate(" + radius + "," + radius + ")");
 
-d3.tsv("data.tsv")
-  .then((data) => {
-    return data.map((d) => {
-      d.frequency = +d.frequency;
+var link = svg.append("g").selectAll(".link"),
+    node = svg.append("g").selectAll(".node");
 
-      return d;  
-    });
-    })
-  .then((data) => {
-    x.domain(data.map(function(d) { return d.letter; }));
-    y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+d3.json("readme-flare-imports.json", function(error, classes) {
+    if (error) throw error;
 
-    g.append("g")
-        .attr("class", "axis axis--x")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+    var wha = packageHierarchy(classes);
 
-    g.append("g")
-        .attr("class", "axis axis--y")
-        .call(d3.axisLeft(y).ticks(10, "%"))
-      .append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", 6)
-        .attr("dy", "0.71em")
-        .attr("text-anchor", "end")
-        .text("Frequency");
+    var root = d3.hierarchy(wha, (d) => d.children);
 
-    g.selectAll(".bar")
-      .data(data)
-      .enter().append("rect")
-        .attr("class", "bar")
-        .attr("x", function(d) { return x(d.letter); })
-        .attr("y", function(d) { return y(d.frequency); })
-        .attr("width", x.bandwidth())
-        .attr("height", function(d) { return height - y(d.frequency); });
-})
-.catch((error) => {
-        throw error;
-});
+    var links = packageImports(root.descendants());
+
+    console.dir(links);
+
+    cluster(root);
+
+    var nodes = root.descendants();
+
+    var edges = link.data(links);
+
+    node = node
+        .data(nodes.filter(function(n) { return !n.children; }))
+        .enter().append("text")
+        .attr("class", "node")
+        .attr("dy", ".31em")
+        .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
+        .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+        .text(function(d) { return d.data.key; })
+
+    edges.enter().append('path')
+        .attr('class', 'link')
+        .merge(edges)
+        .attr('d', d => {
+            //console.log(d.source.path(d.target));
+            return line(d.source.path(d.target)); });
+
+    edges.exit().remove();
+        }
