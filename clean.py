@@ -1,8 +1,8 @@
 import re
 
-f = open("new.csv", "r")
+f = open("test_data.json", "r")
 
-with open("edmond_temp.csv", "w") as output_file:
+with open("test_data_new.json", "w") as output_file:
     for line in f:
         #line = re.sub('\,$', ',[]', line)
         output_file.write(line)

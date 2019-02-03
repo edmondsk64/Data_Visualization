@@ -1,0 +1,68 @@
+[
+    {
+        "ID": 0,
+        "Name": "Alfred K",
+        "Danced with": "1",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 1,
+        "Name": "Alfred W",
+        "Danced with": "2",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 2,
+        "Name": "Amanda",
+        "Danced with": "3",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 3,
+        "Name": "Amy",
+        "Danced with": "4",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 4,
+        "Name": "Andy",
+        "Danced with": "5",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 5,
+        "Name": "Ann",
+        "Danced with": "6",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 6,
+        "Name": "Aries",
+        "Danced with": "7",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 7,
+        "Name": "Ben Chu",
+        "Danced with": "8",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 8,
+        "Name": "Ben Mak",
+        "Danced with": "9",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 9,
+        "Name": "Benny",
+        "Danced with": "8",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 10,
+        "Name": "Bernard",
+        "Danced with": "3",
+        "Power Group": "Power M"
+    }
+]

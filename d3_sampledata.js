@@ -26,10 +26,10 @@ var svg = d3.select("body").append("svg")
 
 var classes_test = getData();
 
-d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/2019.json", function(error, classes) {
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/1.json", function(error, classes) {
   if (error) throw error;
 
-  var nodes = cluster.nodes(packageHierarchy(classes)),
+  var nodes = cluster.nodes(packageHierarchy(classes_test)),
       links = packageImports(nodes);
 
   svg.selectAll(".link")
@@ -109,8 +109,8 @@ function getData() {
       {"name":0,  "imports":[2,3,1]},
       {"name":1,  "imports":[2,3]},
       {"name":2,  "imports":[3,1]},
-      {"name":3,  "imports":[2,0,1]},
-
+      {"name":3,  "imports":[4,0,1]},
+      {"name":4,  "imports":[]}
         /*{"name":"0",     "imports":["2","3"]},
         {"name":"1",  "imports":["2"]},
         {"name":"2",  "imports":["3"]},

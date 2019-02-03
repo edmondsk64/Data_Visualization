@@ -1,0 +1,49 @@
+.node {
+    font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .node:hover {
+    fill: #2164CE;
+  }
+
+  .link {
+    stroke: steelblue;
+    stroke-opacity: .5;
+    stroke-width: 5;
+    fill: none;
+    mix-blend-mode: darken;
+  }
+  
+  .link--source {
+    fill: none;
+  }
+
+
+  .node:hover,
+  .node--source,
+  .node--target {
+    font-weight: 700;
+  }
+  
+  .node--source {
+    fill: #2ca02c;
+  }
+  
+  .node--target {
+    fill: #d62728;
+  }
+  
+  .link--hover,
+  .link--source,
+  .link--target {
+    stroke-opacity: 1;
+    stroke-width: 8px;
+  }
+  
+  .link--source {
+    stroke: #d62728;
+  }
+  
+  .link--target {
+    stroke: #2ca02c;
+  }

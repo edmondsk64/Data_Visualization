@@ -20,10 +20,12 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/edmond_temp_small_new.json", function(error, classes) {
+var classes_test = getData();
+
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/1.json", function(error, classes) {
     if (error) throw error;
 
-    var root = d3.hierarchy(packageHierarchy(classes), (d) => d.children);
+    var root = d3.hierarchy(packageHierarchy(classes_test), (d) => d.children);
 
     var links = packageImports(root.descendants());
 
@@ -121,6 +123,83 @@ function packageImports(nodes) {
             imports.push({source: map[d.data.name], target: map[i]});
         });
     });
-
+    
     return imports;
 }
+
+
+function getData() {
+    return [
+        {
+            "name": 0,
+            "Name": "Alfred K",
+            "imports": [1],
+            "group": "M"
+        },
+        {
+            "name": 1,
+            "Name": "Alfred W",
+            "imports": [2],
+            "group": "R"
+        },
+        {
+            "name": 2,
+            "Name": "Amanda",
+            "imports": [3],
+            "group": "M"
+        },
+        {
+            "name": 3,
+            "Name": "Amy",
+            "imports": [4],
+            "group": "M"
+        },
+        {
+            "name": 4,
+            "Name": "Andy",
+            "imports": [5],
+            "group": "J"
+        },
+        {
+            "name": 5,
+            "Name": "Ann",
+            "imports": [6],
+            "group": "R"
+        },
+        {
+            "name": 6,
+            "Name": "Aries",
+            "imports": [7],
+            "group": "R"
+        },
+        {
+            "name": 7,
+            "Name": "Ben Chu",
+            "imports": [8],
+            "group": "C"
+        },
+        {
+            "name": 8,
+            "Name": "Ben Mak",
+            "imports": [9],
+            "group": "B"
+        },
+        {
+            "name": 9,
+            "Name": "Benny",
+            "imports":[8],
+            "group": "J"
+        },
+        {
+            "name": 10,
+            "Name": "Bernard",
+            "imports": [3],
+            "group": "M"
+        }
+        /*{"name":"0",     "imports":["2","3"]},
+        {"name":"1",  "imports":["2"]},
+        {"name":"2",  "imports":["3"]},
+        {"name":"3",  "imports":["2"]},
+        {"name":"4", "imports":["3", "0"]}*/
+    ];
+};

@@ -1,0 +1,72 @@
+ID,name,imports,Power Group
+ID,Name,Danced with,Power Group
+0,M.Alfred K,['J.One Yeung'],Power M
+1,R.Alfred W,"['J.One Yeung', 'B.Patricia']",Power R
+2,M.Amanda,[],Power M
+3,M.Amy,['C.Eric'],Power M
+4,J.Andy,[],Power J
+5,R.Ann,['C.Kenneth'],Power R
+6,R.Aries,[],Power R
+7,C.Ben Chu,[],Power C
+8,B.Ben Mak,[],Power B
+9,J.Benny,[],Power J
+10,M.Bernard,[],Power M
+11,C.Billie,[],Power C
+12,M.Candy,[],Power M
+13,B.Carl Kee,[],Power B
+14,R.Carmen,[],Power R
+15,R.Catherizne,"['J.Flavia', 'B.Jack', 'B.Tak']",Power R
+16,C.Chris,[],Power C
+17,M.Coco,"['J.Migo', 'B.Neon']",Power M
+18,C.Cus,['R.Louis'],Power C
+19,J.David Burton,[],Power J
+20,C.Diana,[],Power C
+21,B.Donna,[],Power B
+22,B.Edwin,[],Power B
+23,R.Edwoon,[],Power R
+24,B.Eins,[],Power B
+25,C.Eleanor,[],Power C
+26,C.Eric,[],Power C
+27,J.Erica,"['B.Edwin', 'J.Janet']",Power J
+28,J.Eva,[],Power J
+29,J.Flavia,['C.Roger'],Power J
+30,R.Grace,"['C.Phyllis', 'C.Pui Man']",Power R
+31,C.Hoby,[], Power C
+32,M.Irene,[],Power M
+33,B.Jack,[],Power B
+34,J.Janet,['J.Warren'],Power J
+35,M.Jenny,['C.Patti'],Power M
+36,J.Ji Ji,"['J.Sam', 'J.Vicky']",Power J
+37,C.Joanne,"['M.Jenny', 'C.Wai']",Power C
+38,C.Johnny,[],Power C
+39,B.Kathy,[],Power B
+40,C.Kenneth,[],Power C
+41,M.Lee,"['R.Richard', 'R.Rita']",Power M
+42,C.Leo,[],Power C
+43,J.Leonard,['R.Grace'],Power J
+44,R.Louis,"['C.Joanne', 'B.Kathy']",Power R
+45,M.Martin,[],Power M
+46,J.Migo,[],Power J
+47,B.Neon,['M.Lee'],Power B
+48,J.One Yeung,"['J.Leonard', 'J.Samson']",Power J
+49,B.Patricia,[],Power B
+50,C.Patti,"['R.Wayne', 'C.Ziennifer Hui']",Power C
+51,C.Phyllis,[],Power C
+52,C.Pui Man,"['C.Hoby', 'M.Irene']",Power C
+53,R.Richard,"['M.Martin', 'B.Stella']",Power R
+54,R.Rita,"['J.Ji Ji', 'R.Stanley']",Power R
+55,C.Roger,[],Power C
+56,J.Sam,['C.Leo'],Power J
+57,J.Samson,[],Power J
+58,B.Shek,"['C.Johnny', 'B.Sylvia']",Power B
+59,R.Stanley,['C.Eleanor'],Power R
+60,B.Stella,[],Power B
+61,M.Suzuki,[],Power M
+62,B.Sylvia,[],Power B
+63,B.Tak,[],Power B
+64,J.Vicky,[],Power J
+65,C.Wai,[],Power C
+66,J.Warren,[],Power J
+67,R.Wayne,"['B.Shek', 'M.Suzuki']",Power R
+68,C.Ziennifer Hui,[],Power C
+69,J.Archie,[],Power J
