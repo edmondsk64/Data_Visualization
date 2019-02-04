@@ -1,0 +1,499 @@
+[
+    {
+        "ID": "ID",
+        "name": "Name",
+        "imports": "Danced with",
+        "Power Group": "Power Group"
+    },
+    {
+        "ID": 0,
+        "name": "M.Alfred K",
+        "imports": [
+            "J.One Yeung"
+        ],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 1,
+        "name": "R.Alfred W",
+        "imports": [
+            "J.One Yeung",
+            "B.Patricia"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 2,
+        "name": "M.Amanda",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 3,
+        "name": "M.Amy",
+        "imports": [
+            "C.Eric"
+        ],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 4,
+        "name": "J.Andy",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 5,
+        "name": "R.Ann",
+        "imports": [
+            "C.Kenneth"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 6,
+        "name": "R.Aries",
+        "imports": [],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 7,
+        "name": "C.Ben Chu",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 8,
+        "name": "B.Ben Mak",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 9,
+        "name": "J.Benny",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 10,
+        "name": "M.Bernard",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 11,
+        "name": "C.Billie",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 12,
+        "name": "M.Candy",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 13,
+        "name": "B.Carl Kee",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 14,
+        "name": "R.Carmen",
+        "imports": [],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 15,
+        "name": "R.Catherizne",
+        "imports": [
+            "J.Flavia",
+            "B.Jack",
+            "B.Tak"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 16,
+        "name": "C.Chris",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 17,
+        "name": "M.Coco",
+        "imports": [
+            "J.Migo",
+            "B.Neon"
+        ],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 18,
+        "name": "C.Cus",
+        "imports": [
+            "R.Louis"
+        ],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 19,
+        "name": "J.David Burton",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 20,
+        "name": "C.Diana",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 21,
+        "name": "B.Donna",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 22,
+        "name": "B.Edwin",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 23,
+        "name": "R.Edwoon",
+        "imports": [],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 24,
+        "name": "B.Eins",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 25,
+        "name": "C.Eleanor",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 26,
+        "name": "C.Eric",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 27,
+        "name": "J.Erica",
+        "imports": [
+            "B.Edwin",
+            "J.Janet"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 28,
+        "name": "J.Eva",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 29,
+        "name": "J.Flavia",
+        "imports": [
+            "C.Roger"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 30,
+        "name": "R.Grace",
+        "imports": [
+            "C.Phyllis",
+            "C.Pui Man"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 31,
+        "name": "C.Hoby",
+        "imports": [],
+        "Power Group": " Power C"
+    },
+    {
+        "ID": 32,
+        "name": "M.Irene",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 33,
+        "name": "B.Jack",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 34,
+        "name": "J.Janet",
+        "imports": [
+            "J.Warren"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 35,
+        "name": "M.Jenny",
+        "imports": [
+            "C.Patti"
+        ],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 36,
+        "name": "J.Ji Ji",
+        "imports": [
+            "J.Sam",
+            "J.Vicky"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 37,
+        "name": "C.Joanne",
+        "imports": [
+            "M.Jenny",
+            "C.Wai"
+        ],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 38,
+        "name": "C.Johnny",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 39,
+        "name": "B.Kathy",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 40,
+        "name": "C.Kenneth",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 41,
+        "name": "M.Lee",
+        "imports": [
+            "R.Richard",
+            "R.Rita"
+        ],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 42,
+        "name": "C.Leo",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 43,
+        "name": "J.Leonard",
+        "imports": [
+            "R.Grace"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 44,
+        "name": "R.Louis",
+        "imports": [
+            "C.Joanne",
+            "B.Kathy"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 45,
+        "name": "M.Martin",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 46,
+        "name": "J.Migo",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 47,
+        "name": "B.Neon",
+        "imports": [
+            "M.Lee"
+        ],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 48,
+        "name": "J.One Yeung",
+        "imports": [
+            "J.Leonard",
+            "J.Samson"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 49,
+        "name": "B.Patricia",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 50,
+        "name": "C.Patti",
+        "imports": [
+            "R.Wayne",
+            "C.Ziennifer Hui"
+        ],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 51,
+        "name": "C.Phyllis",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 52,
+        "name": "C.Pui Man",
+        "imports": [
+            "C.Hoby",
+            "M.Irene"
+        ],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 53,
+        "name": "R.Richard",
+        "imports": [
+            "M.Martin",
+            "B.Stella"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 54,
+        "name": "R.Rita",
+        "imports": [
+            "J.Ji Ji",
+            "R.Stanley"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 55,
+        "name": "C.Roger",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 56,
+        "name": "J.Sam",
+        "imports": [
+            "C.Leo"
+        ],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 57,
+        "name": "J.Samson",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 58,
+        "name": "B.Shek",
+        "imports": [
+            "C.Johnny",
+            "B.Sylvia"
+        ],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 59,
+        "name": "R.Stanley",
+        "imports": [
+            "C.Eleanor"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 60,
+        "name": "B.Stella",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 61,
+        "name": "M.Suzuki",
+        "imports": [],
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 62,
+        "name": "B.Sylvia",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 63,
+        "name": "B.Tak",
+        "imports": [],
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 64,
+        "name": "J.Vicky",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 65,
+        "name": "C.Wai",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 66,
+        "name": "J.Warren",
+        "imports": [],
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 67,
+        "name": "R.Wayne",
+        "imports": [
+            "B.Shek",
+            "M.Suzuki"
+        ],
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 68,
+        "name": "C.Ziennifer Hui",
+        "imports": [],
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 69,
+        "name": "J.Archie",
+        "imports": [],
+        "Power Group": "Power J"
+    }
+]

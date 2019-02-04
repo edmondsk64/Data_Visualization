@@ -1,0 +1,446 @@
+[
+    {
+        "ID": 0,
+        "Name": "Alfred K",
+        "Danced with": "143,159,175,196,410,412,495,658,659,663,672,712,720,791,809,858,905,922,1010,1021,1026,1044,1050,1058",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 1,
+        "Name": "Alfred W",
+        "Danced with": "49,50,162,217,341,343,803,804,806",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 2,
+        "Name": "Amanda",
+        "Danced with": "339,340,342,344,345,405,406,407,408,409,475,479,682",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 3,
+        "Name": "Amy",
+        "Danced with": "27,81,161,214,423,425,484,507,519,570,571,589,593,614,638,705,735,746,783,839,877,878,879,898,998,999,1000",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 4,
+        "Name": "Andy",
+        "Danced with": "197,208,209,210,211,394,591,608,615,820,821,822,823,824,923,925,983,984,1017,1027,1028,1029,1030,1052,1074",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 5,
+        "Name": "Ann",
+        "Danced with": "41,150,181,285,390,400,448,568,627,628,629,630",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 6,
+        "Name": "Aries",
+        "Danced with": "236,237,238,239,472,474,477",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 7,
+        "Name": "Ben Chu",
+        "Danced with": "136,139,779,780,781,784,796,797,798,799",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 8,
+        "Name": "Ben Mak",
+        "Danced with": "94,95,244,245,246,393,508,583,590,610,745,816",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 9,
+        "Name": "Benny",
+        "Danced with": "96,97,98,128,130,332,352,487,543,732,734,758,759,765,794,849,861",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 10,
+        "Name": "Bernard",
+        "Danced with": "156,160,261,275,435,436,437,438,439,440,441,533,534,535,786,868,981,1064",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 11,
+        "Name": "Billie",
+        "Danced with": "100,138,140,294,302,373,557,558,559,560,669,670,825,826,827,828,930,932,1048,1049",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 12,
+        "Name": "Candy",
+        "Danced with": "102,199,216,291,383,482,483,486,493,494,498,509,514,536,600,650,680,681,698,703,742,743,766,801,872,901",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 13,
+        "Name": "Carl Kee",
+        "Danced with": "556,639,640,641,642,643,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 14,
+        "Name": "Carmen",
+        "Danced with": "282,283,286,287,288,413,414,447,842,843,844,845,906,1051",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 15,
+        "Name": "Catherizne",
+        "Danced with": "30,34,64,144,170,371,433,434,464,465,592,657,684,704,767,800,870,910",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 16,
+        "Name": "Chris",
+        "Danced with": "141,142,258,265,723,754,817,934,935,936,937,938,939,940,1060,1078,1079,1080",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 17,
+        "Name": "Coco",
+        "Danced with": "47,48,75,77,101,215,260,305,306,522,523,577,578,579,580,581,587,613,633,770,795,985,1043",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 18,
+        "Name": "Cus",
+        "Danced with": "45,73,80,135,137,278,397,398,511,594,696",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 19,
+        "Name": "David Burton",
+        "Danced with": "707,760,792,997",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 20,
+        "Name": "Diana",
+        "Danced with": "234,235,292,354,722,724,725,726,773,777,811,812,929,946,947,980",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 21,
+        "Name": "Donna",
+        "Danced with": "279,280,281,316,415,416,417,772,774,775,776,1031,1032,1033,1034,1046",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 22,
+        "Name": "Edwin",
+        "Danced with": "112,113,298,299",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 23,
+        "Name": "Edwoon",
+        "Danced with": "296,297,328,347,399,411,455,456,466,496,497,553,561,573,576,651,656,661,662,697,737,738,833,941,949",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 24,
+        "Name": "Eins",
+        "Danced with": "333,334,335,336,346,348,349,350,1009,1070,1071,1072,1073",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 25,
+        "Name": "Eleanor",
+        "Danced with": "673,674,676,677,687,688,689,690,692,693,694,695,740,787,808,853,859,860,876,933,979,988,1012,1015,1022,1085,1087,1089",
+        "Power Group": null
+    },
+    {
+        "ID": 26,
+        "Name": "Eric",
+        "Danced with": "103,205,206,207",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 27,
+        "Name": "Erica",
+        "Danced with": "23,35,148,149,220,224,338,542,554,555,624,950,1020",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 28,
+        "Name": "Eva",
+        "Danced with": "116,117,118,119,131,248,250,251,252,320",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 29,
+        "Name": "Flavia",
+        "Danced with": "56,79,109,120,182,255,277,376,384,551,715,716,850,928,1006,1056,1068,1069",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 30,
+        "Name": "Grace",
+        "Danced with": "52,53,151,179,180,200,276,326,462,463,504,595,660,664,665,666,686,855,1067,1090",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 31,
+        "Name": "Hoby",
+        "Danced with": "644,645,691,718,719,757,896,897,899,911,974,1040,1041",
+        "Power Group": null
+    },
+    {
+        "ID": 32,
+        "Name": "Irene",
+        "Danced with": "155,157,191,262,268,272,329,485,530,531,611,713,714,721,731,733,748,768",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 33,
+        "Name": "Jack",
+        "Danced with": "270,324,325,362,492,1001",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 34,
+        "Name": "Janet",
+        "Danced with": "67,163,164,165,183,192,193,213,360,515,771,978",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 35,
+        "Name": "Jenny",
+        "Danced with": "51,171,172,391,451,460,606,622,846",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 36,
+        "Name": "Ji Ji",
+        "Danced with": "57,65,78,82,146,147,253,321,322,323,382,505,506,516,518,550,552,785,900",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 37,
+        "Name": "Joanne",
+        "Danced with": "36,66,127,134,418,429,491,499,524,549,563,602,604,620,621,653,655,699,702,709,762,769,810,883,1024,1042,1055",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 38,
+        "Name": "Johnny",
+        "Danced with": "185,198,232,293,295,562,582,636,637,729",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 39,
+        "Name": "Kathy",
+        "Danced with": "318,319,368,369,396,403,426,625,819,992,1008",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 40,
+        "Name": "Kenneth",
+        "Danced with": "1066",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 41,
+        "Name": "Lee",
+        "Danced with": "54,55,226,317,452,461,520,574,575,635,654,667,813,856,857,895,1019,1054",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 42,
+        "Name": "Leo",
+        "Danced with": "273,274,489,532",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 43,
+        "Name": "Leonard",
+        "Danced with": "31,152,153,154,257,387,537,538,585,586,623,671,700,701,793,864,880,881,982,1003,1004,1005,1077",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 44,
+        "Name": "Louis",
+        "Danced with": "38,40,353,358,385,386,453,634,741,747,788,807,841,912,989,1011,1036,1037,1095",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 45,
+        "Name": "Martin",
+        "Danced with": "76,105,158,392,605,951",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 46,
+        "Name": "Migo",
+        "Danced with": "227,228,229,230,351",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 47,
+        "Name": "Neon",
+        "Danced with": "42,86,87,88,231,233,490,527,544,736,927,931",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 48,
+        "Name": "One Yeung",
+        "Danced with": "44,58,72,85,111,121,126,132,169,327,380,512,513,584,598,609,626,683,685,710,711,739,756,761,945,948,1018,1063,1088,1094,1096,1097",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 49,
+        "Name": "Patricia",
+        "Danced with": "145,166,240,241,242,243,301,668,814,815,862,986",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 50,
+        "Name": "Patti",
+        "Danced with": "68,69,74,114,834,835,836,838,1081,1082,1083,1084",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 51,
+        "Name": "Phyllis",
+        "Danced with": "201,202,203,204,678,679,867",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 52,
+        "Name": "Pui Man",
+        "Danced with": "32,33,365,401,402,510,871,873,904",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 53,
+        "Name": "Richard",
+        "Danced with": "46,61,218,219,256,388,389,454,480,481,588,996",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 54,
+        "Name": "Rita",
+        "Danced with": "37,60,176,177,178,404,442,443,450,467,468,476,749,750,751,752,753,851",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 55,
+        "Name": "Roger",
+        "Danced with": "168,264,548,572,755,854,907,908,1002,1014,1065",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 56,
+        "Name": "Sam",
+        "Danced with": "43,104,106,107,108,174,307,596,631,802,869,874,882,913,914,915,977",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 57,
+        "Name": "Samson",
+        "Danced with": "83,125,133,303,597,603,618,782,840,875",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 58,
+        "Name": "Shek",
+        "Danced with": "39,63,194,195,374,375,377,379,424,646,652,1093",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 59,
+        "Name": "Stanley",
+        "Danced with": "26,99,124,212,259,363,469,470,471,473,478,617,909",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 60,
+        "Name": "Stella",
+        "Danced with": "91,92,93,304,337,421,428,517,541,545,601,607,619,763,863",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 61,
+        "Name": "Suzuki",
+        "Danced with": "115,167,266,267,271,488,521,525,649,675,852,976,987,1023,1086,1091,1092",
+        "Power Group": "Power M"
+    },
+    {
+        "ID": 62,
+        "Name": "Sylvia",
+        "Danced with": "84,89,90,419,420,449,500,501,564,565,566,567,569,599,647,648,789,790,818,865,866,1016,1045",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 63,
+        "Name": "Tak",
+        "Danced with": "289,290,315,355,356,427",
+        "Power Group": "Power B"
+    },
+    {
+        "ID": 64,
+        "Name": "Vicky",
+        "Danced with": "173,269,284,300",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 65,
+        "Name": "Wai",
+        "Danced with": "184,225,263,445,446,502,503,706,708,778,884,885,886,887,889,944,975",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 66,
+        "Name": "Warren",
+        "Danced with": "308,309,310,311,312,313,314,331,364,366,372,381",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 67,
+        "Name": "Wayne",
+        "Danced with": "59,62,188,189,422,444,457,458,459,829,830,831",
+        "Power Group": "Power R"
+    },
+    {
+        "ID": 68,
+        "Name": "Ziennifer Hui",
+        "Danced with": "129,186,430,431,539,540,612,616,632",
+        "Power Group": "Power C"
+    },
+    {
+        "ID": 69,
+        "Name": "Archie",
+        "Danced with": "717,728,744,990",
+        "Power Group": "Power J"
+    },
+    {
+        "ID": 70,
+        "Name": "Carl Lewis \u6797\u6559\u982d",
+        "Danced with": "805,890,891,892,893,894,902,903,942,943,952,953,954,955,956,957,958,1038,1039,1047,1053,1059,1075,1076",
+        "Power Group": null
+    },
+    {
+        "ID": 71,
+        "Name": "Vincent Li",
+        "Danced with": "848,916,917,918,919,920,921",
+        "Power Group": null
+    },
+    {
+        "ID": 72,
+        "Name": "Mark Kong",
+        "Danced with": "1013,1025,1035,1057,1061,1062",
+        "Power Group": null
+    },
+    {
+        "ID": 73,
+        "Name": "YC Wun",
+        "Danced with": null,
+        "Power Group": null
+    }
+]
