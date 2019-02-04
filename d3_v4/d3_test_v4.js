@@ -20,10 +20,11 @@ var svg = d3.select("body").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/edmond_temp_small_new.json", function(error, classes) {
+var classes_test = getData();
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/flare.json", function(error, classes) {
     if (error) throw error;
 
-    var root = d3.hierarchy(packageHierarchy(classes), (d) => d.children);
+    var root = d3.hierarchy(packageHierarchy(classes_test), (d) => d.children);
 
     var links = packageImports(root.descendants());
 
@@ -124,3 +125,30 @@ function packageImports(nodes) {
 
     return imports;
 }
+
+function getData() {
+    return [
+      {"name":"0",  "imports":[2,3,1]},
+      {"name":"1",  "imports":[2,3]},
+      {"name":"2",  "imports":[3,7,5,8,1]},
+      {"name":"3",  "imports":[2,0,1]},
+      {"name":"4",  "imports":[2,3,1]},
+      {"name":"5",  "imports":[2,15,3,7,13]},
+      {"name":"6",  "imports":[3,1]},
+      {"name":"7",  "imports":[2,0,1]},
+      {"name":"8",  "imports":[2,3,1]},
+      {"name":"9",  "imports":[2,3]},
+      {"name":"10",  "imports":[3,1]},
+      {"name":"11",  "imports":[2,0,1]},
+      {"name":"12",  "imports":[2,3,1]},
+      {"name":"13",  "imports":[2,3]},
+      {"name":"14",  "imports":[3,1]},
+      {"name":"15",  "imports":[2,0,1]},
+
+        /*{"name":"0",     "imports":["2","3"]},
+        {"name":"1",  "imports":["2"]},
+        {"name":"2",  "imports":["3"]},
+        {"name":"3",  "imports":["2"]},
+        {"name":"4", "imports":["3", "0"]}*/
+    ];
+};

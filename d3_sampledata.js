@@ -26,10 +26,10 @@ var svg = d3.select("body").append("svg")
 
 var classes_test = getData();
 
-d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/2019.json", function(error, classes) {
+d3.json("https://raw.githubusercontent.com/edmondsk64/tsv/master/1.json", function(error, classes) {
   if (error) throw error;
 
-  var nodes = cluster.nodes(packageHierarchy(classes)),
+  var nodes = cluster.nodes(packageHierarchy(classes_test)),
       links = packageImports(nodes);
 
   svg.selectAll(".link")
@@ -106,10 +106,22 @@ function packageImports(nodes) {
 
 function getData() {
     return [
-      {"name":0,  "imports":[2,3,1]},
-      {"name":1,  "imports":[2,3]},
-      {"name":2,  "imports":[3,1]},
-      {"name":3,  "imports":[2,0,1]},
+      {"name":"a.0",  "imports":["c.12", "c.10", "b.7", "c.13", "b.6", "a.1", "c.14"]},
+      {"name":"a.1",  "imports":["c.13", "b.5", "b.6", "c.14", "c.11", "c.12", "a.2", "b.7", "b.9", "b.8"]},
+      {"name":"a.2",  "imports":[10, 5, 4, 9, 12]},
+      {"name":"a.3",  "imports":[1, 3, 2, 13, 5, 9, 8, 14, 6, 12]},
+      {"name":"a.4",  "imports":[1, 10, 4, 5, 3, 11, 13, 7, 8]},
+      {"name":"b.5",  "imports":[5, 4, 2, 14, 9]},
+      {"name":"b.6",  "imports":[1, 12, 6, 3, 13, 4, 11, 14, 8, 5, 7]},
+      {"name":"b.7",  "imports":[8]},
+      {"name":"b.8",  "imports":[7, 5, 12, 10, 1, 8, 11, 4, 14, 6]},
+      {"name":"b.9",  "imports":[14, 7, 1, 6, 12, 13, 9, 11, 4, 3]},
+      {"name":"c.10",  "imports":[4, 10, 6, 5, 14]},
+      {"name":"c.11",  "imports":[14, 7, 4, 2, 6]},
+      {"name":"c.12",  "imports":[2,3,1]},
+      {"name":"c.13",  "imports":[13, 3, 12, 8, 14]},
+      {"name":"c.14",  "imports":[3,1]},
+      {"name":"c.15",  "imports":[1, 8, 14, 3, 11, 2, 9, 6, 12, 5, 13]},
 
         /*{"name":"0",     "imports":["2","3"]},
         {"name":"1",  "imports":["2"]},
