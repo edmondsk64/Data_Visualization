@@ -1,11 +1,5 @@
 [
     {
-        "ID": "ID",
-        "name": "Name",
-        "imports": "Danced with",
-        "Power Group": "Power Group"
-    },
-    {
         "ID": 0,
         "name": "M.Alfred K",
         "imports": [

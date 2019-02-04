@@ -136,7 +136,7 @@ function getData() {
             "ID": 0,
             "name": "M.Alfred K",
             "imports": [
-                "J.One Yeung"
+               
             ],
             "Power Group": "Power M"
         },
